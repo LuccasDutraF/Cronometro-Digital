@@ -21,11 +21,16 @@ flex-direction: column;
 
 
 .timer {
-font-size: 6rem;
+font-size: 96px;
 text-shadow: 0 0 10px #8a7dff, 0 0 20px #8a7dff, 0 0 40px #6a5dff;
 margin-bottom: 30px;
+transition: transform 0.2s ease-in-out;
 }
 
+
+.milliseconds{
+    font-size: 40px;
+}
 
 .controls {
 display: flex;
@@ -53,13 +58,27 @@ color: #000;
 box-shadow: 0 0 15px #8a7dff;
 }
 
+.aumentarVeloContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+}
+
 @media (max-width: 575px){
 
     .timer{
-            font-size: 60px;
+            font-size: 40px;
     }
 
     button{
             font-size: 15px;
     }
+
+    .aumentarVeloContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
 }
