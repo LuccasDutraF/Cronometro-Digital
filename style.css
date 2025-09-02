@@ -71,6 +71,10 @@ box-shadow: 0 0 15px #8a7dff;
             font-size: 40px;
     }
 
+    .milliseconds{
+    font-size: 25px;
+    }
+
     button{
             font-size: 15px;
     }

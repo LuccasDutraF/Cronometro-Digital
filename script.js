@@ -9,7 +9,7 @@ let number = 0
 let cron;
 const contagem = document.querySelector(".main-time");
 const milissegundosspan = document.querySelector(".milliseconds")
-let currentInterval = 1000;
+let currentInterval = 10.50;
 
 function SetIntervalConfigs() {
 
@@ -46,7 +46,7 @@ function resetCronometer(){
     number = 0
     contagem.textContent = "00:00:00";
     milissegundosspan.textContent = "00";
-    currentInterval = 1000;
+    currentInterval = 10.50;
 }
 
 function AumentarVelocidade(velocidade){
